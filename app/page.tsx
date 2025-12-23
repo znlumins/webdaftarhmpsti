@@ -98,7 +98,7 @@ export default function Home() {
           <h1 className="text-4xl md:text-5xl font-extrabold text-white mb-2 tracking-tight">
             KABINET <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">INNOVARA</span>
           </h1>
-          <h2 className="text-xl font-bold text-gray-500 mb-6">PENGURUS HMPSTI 2026</h2>
+          <h2 className="text-xl font-bold text-gray-500 mb-6">BADAN PENGURUS HARIAN HMPSTI 2026</h2>
           <div className="h-1 w-24 bg-gradient-to-r from-cyan-500 to-blue-600 mx-auto rounded-full"></div>
         </div>
 
@@ -219,7 +219,7 @@ export default function Home() {
               <label className="block text-sm text-gray-400 mb-3 text-center">
                 Silahkan ketik ulang kalimat komitmen berikut dengan <b>SAMA PERSIS</b>:
                 <br/>
-                <span className="block mt-2 font-bold text-cyan-400 italic text-lg">"SAYA BERJANJI AKAN BERTANGGUNG JAWAB ATAS APAPUN YANG SAYA DAPATKAN SELAMA SAYA MENJADI PENGURUS HMPSTI"</span>
+                <span className="block mt-2 font-bold text-cyan-400 italic text-lg">"SAYA BERJANJI AKAN BERTANGGUNG JAWAB ATAS APAPUN YANG SAYA DAPATKAN SELAMA SAYA MENJADI BADAN PENGURUS HARIAN HMPSTI"</span>
               </label>
               <input name="pernyataan_komitmen" required type="text" className="w-full bg-black border border-gray-700 rounded-lg p-4 text-center font-bold text-white focus:border-cyan-500 outline-none" placeholder="Ketik kalimat janji di sini..." />
             </div>
