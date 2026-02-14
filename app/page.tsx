@@ -95,7 +95,6 @@ export default function Home() {
             <section className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <InputText label="Nama Lengkap" name="nama" req />
               <InputText label="NIM" name="nim" req />
-              <InputText label="Prodi" name="prodi" req />
               <InputText label="Angkatan" name="angkatan" req />
               <InputText label="HP/WA" name="hp" req />
               <InputText label="Email" name="email" type="email" req />
@@ -125,11 +124,11 @@ export default function Home() {
 
             {/* SWOT & KOMITMEN */}
             <section className="space-y-4">
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
-                <InputText label="S" name="swot_s" />
-                <InputText label="W" name="swot_w" />
-                <InputText label="O" name="swot_o" />
-                <InputText label="T" name="swot_t" />
+              <div className="grid grid-cols-1 gap-4">
+                <InputText label="Strengths (S)" name="swot_s" />
+                <InputText label="Weaknesses (W)" name="swot_w" />
+                <InputText label="Opportunities (O)" name="swot_o" />
+                <InputText label="Threats (T)" name="swot_t" />
               </div>
               <TextArea label="Ide Inovasi" name="ide_terobosan" />
               <div className="bg-cyan-500/5 p-4 rounded-xl border border-cyan-500/20">
